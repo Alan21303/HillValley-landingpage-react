@@ -4,6 +4,8 @@
  * Animates a hill image with swing and stretch effects using Framer Motion.
  * Props control size and animation speed.
  *
+ * Alan Roy
+ * https://github.com/Alan21303/
  * Created: 2025-09-01
  */
 

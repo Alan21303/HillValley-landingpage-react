@@ -4,6 +4,8 @@
  * Displays the top navigation with logo, nav items, and a connect button.
  * Includes fade-in and drop-down animations using Framer Motion.
  *
+ * Alan Roy
+ * https://github.com/Alan21303/
  * Created: 2025-09-01
  */
 

@@ -4,6 +4,8 @@
  * Renders hills with sequential pop-up animation for target hills.
  * Uses shared hill positioning logic and highlights specific hills in orange.
  *
+ * Alan Roy
+ * https://github.com/Alan21303/
  * Created: 2025-09-01
  */
 

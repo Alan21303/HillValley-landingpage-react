@@ -4,6 +4,8 @@
  * Utility functions for calculating hill positions, assigning hill types,
  * and identifying target hills for animation.
  *
+ * Alan Roy
+ * https://github.com/Alan21303/
  * Created: 2025-09-01
  */
 

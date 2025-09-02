@@ -3,6 +3,8 @@
  * ---------------------
  * Renders a hill SVG with gradient fill. Gradient color depends on the "item" prop.
  *
+ * Alan Roy
+ * https://github.com/Alan21303/
  * Created: 2025-09-01
  */
 

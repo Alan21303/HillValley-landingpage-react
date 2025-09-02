@@ -4,6 +4,8 @@
  * Main landing page component.
  * Controls sequential rendering and animations of Background, Header, Hills, Runner, and HeroText.
  *
+ * Alan Roy
+ * https://github.com/Alan21303/
  * Created: 2025-09-01
  */
 

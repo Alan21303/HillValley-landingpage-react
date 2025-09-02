@@ -3,6 +3,8 @@
  * ---------------------
  * Displays animated hero text in the center of the screen using Framer Motion.
  *
+ * Alan Roy
+ * https://github.com/Alan21303/
  * Created: 2025-09-01
  */
 

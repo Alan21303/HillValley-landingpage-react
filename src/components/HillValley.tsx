@@ -4,6 +4,8 @@
  * Renders a grid of hills with animated pop and scale effects.
  * Hill positions are calculated dynamically based on screen width and props.
  *
+ * Alan Roy
+ * https://github.com/Alan21303/
  * Created: 2025-09-01
  */
 

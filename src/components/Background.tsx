@@ -3,6 +3,8 @@
  * ---------------------
  * Renders a full-screen gradient background.
  *
+ * Alan Roy
+ *https://github.com/Alan21303/
  * Created: 2025-09-01
  */
 
