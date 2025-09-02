@@ -1,69 +1,107 @@
-# React + TypeScript + Vite
+HillValley Landing Page - React + TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Project Screenshot](./scrscreenshots/image.png) <!-- Add a screenshot of your landing page here -->
 
-Currently, two official plugins are available:
+A visually engaging landing page built with **React**, **TypeScript**, **Vite**, and **Framer Motion**, featuring animated hills, hero text, and sequential animations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Table of Contents
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Available Scripts](#available-scripts)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## Features
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Dynamic animated hills using **Framer Motion**
+- Sequential pop-up animations for target hills
+- Animated **Hero Text** overlay
+- Responsive design for desktop, tablet, and mobile
+- Background runner animation
+- Easy to extend with additional animations or sections
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Technologies Used
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- **React** (v18+) – Component-based UI
+- **TypeScript** – Type safety
+- **Vite** – Development server and build tool
+- **Framer Motion** – Smooth animations
+- **Tailwind CSS** – Utility-first styling
+
+---
+
+## Project Structure
+
+landing-page/
+│
+├─ public/ # Static assets
+├─ src/
+│ ├─ assets/ # Images, logos
+│ ├─ components/ # React components
+│ │ ├─ Background.tsx
+│ │ ├─ BackgroundRunner.tsx
+│ │ ├─ HillShape.tsx
+│ │ ├─ HillValley.tsx
+│ │ ├─ HillValleyWrapper.tsx
+│ │ ├─ Header.tsx
+│ │ └─ HeroText.tsx
+│ ├─ utils/ # Helper functions
+│ │ └─ hillUtils.ts
+│ ├─ App.tsx
+│ └─ main.tsx # Vite entry point
+├─ package.json
+├─ tsconfig.json
+├─ vite.config.ts
+└─ README.md
+
+yaml
+Copy code
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18+ recommended)
+- npm (v9+ recommended) or yarn
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Alan21303/HillValley-landingpage-react.git
+cd HillValley-landingpage-react
+Install dependencies:
+
+bash
+Copy code
+npm install
+# or
+yarn
+Run the development server:
+
+bash
+Copy code
+npm run dev
+# or
+yarn dev
+Open http://localhost:5173 to view in your browser.
+
+Available Scripts
+Command	Description
+npm run dev	Starts the development server
+npm run build	Builds the app for production in dist/ folder
+npm run preview	Preview production build locally
 ```
