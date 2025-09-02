@@ -1,6 +1,6 @@
 HillValley Landing Page - React + TypeScript
 
-![Project Screenshot](./scrscreenshots/image.png) <!-- Add a screenshot of your landing page here -->
+![Project Screenshot](./screenshots/image.png) <!-- Add a screenshot of your landing page here -->
 
 A visually engaging landing page built with **React**, **TypeScript**, **Vite**, and **Framer Motion**, featuring animated hills, hero text, and sequential animations.
 
